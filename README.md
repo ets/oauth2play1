@@ -1,3 +1,15 @@
+A fork of cleanyong/oauth2play2scala modified for Play Framework 1.x
+
+Note: this "project" will not build independently - the source must be copied into a play build environment / application
+
+Changes:
+- Refactored library for the statically accessible Play 1.x request/response objects
+- Added the oauth2.rs package with source from the Apache OLTU project https://oltu.apache.org/ (also refactored for the Play request/response objects)
+- Repackaged
+
+Original README:
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 oauth2play2scala
 ================
 
